@@ -10,6 +10,6 @@
     "source": "https://github.com/frederickjh/test_drupal_module.git"
   },
   "require": {
-    "frederickjh/test_external_library": "dev-master"
+    "frederickjh/test_external_library": "dev-type-drupal-library"
   }
 }
