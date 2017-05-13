@@ -9,5 +9,7 @@
   "support": {
     "source": "https://github.com/frederickjh/test_drupal_module.git"
   },
-  "require": { }
+  "require": {
+    "frederickjh/test_external_library": "dev-master"
+  }
 }
