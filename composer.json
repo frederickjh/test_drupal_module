@@ -10,7 +10,7 @@
     "source": "https://github.com/frederickjh/test_drupal_module.git"
   },
   "require": {
-    "frederickjh/test_external_library": "dev-composer-installers-extender-in-drupal-module",
+    "frederickjh/test_external_library": "dev-composer-installers-extender-different-docroot-name",
     "oomphinc/composer-installers-extender": "dev-master"
   },
       "extra": {
@@ -18,7 +18,7 @@
             "library"
         ],
         "installer-paths": {
-            "docroot/libraries/{$name}": [
+            "web/libraries/{$name}": [
                 "type:library"
             ]
         }
